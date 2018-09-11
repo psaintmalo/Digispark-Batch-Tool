@@ -1,25 +1,25 @@
 # Digispark_Batch_Tool
 
-This is a simple tool to quickly add simple comands for a digispark to do batch processes
+This is a simple tool to quickly add commands for a digispark to do batch processes by emulating a keyboard
 
-To use it simple open the python file and type the file name you would want to use, as of v0.3, only the typing it self will be 
-created, so you may inset this into the void setup of a blank arduino file.
+To use it simple open the python file and follow the instructions, as of v0.4, .bat to .ino file conversion is not supported, but is planned for the future. After finishing you may copy the lines from the file and paste them into to the setup void of a blank arduino project.
 
-In future version the whole arduino file will be made.
+The creation of the automatic addition of the void is also planned so the file may be saved as an .ino and opened directly
 
-Current comands are:
+Current commands are:
   - WIN_R   Opens the windows run box
+  - SHORT   Lets you make short cuts of Win/Ctrl + one letter
   - ENTER   Presses enter
-  - DELETE   Wipes the file
-  - STOP   Closes the program
+  - DELETE  Deletes the file and ends the program
+  - STOP    Closes the program
   - READ    Will read the file
   - HELP    Will show this list on the program
   - To make the digispark type something as a keyboard would into the computer, you will need to type it in lower case
   - To add a delay between certain commands, just type the amount of ms of the delay
   
-The delay after the commands WIN_R and ENTER can be adjusted on the settings.py file, by default it is 0ms
+The delay after the commands WIN_R and ENTER can be adjusted on the settings.py file, by default it is 0ms. 
 
-For any help regarding to how to setup the computer to use the Digispark, here is a link which explains it prety well
+For any help regarding to how to setup the computer to use the Digispark, here is a link which explains it pretty well
 https://youtu.be/fGmGBa-4cYQ?t=14s
 
 Also, remember to use the Arduino IDE 1.8.5 as later ones wont work with the digispark.
