@@ -1,0 +1,21 @@
+    Keys
+
+Letters      --> KEY_*
+* -> A-Z, 0-9, F1-F12, SPACE, ENTER
+
+    Modifiers
+
+Left Ctrl    -->  MOD_CONTROL_LEFT
+Left Shift   -->  MOD_SHIFT_LEFT
+Left Alt     -->  MOD_ALT_LEFT
+Left Gui     -->  MOD_GUI_LEFT
+Right Ctrl   -->  MOD_CONTROL_RIGHT
+Right Shift  -->  MOD_SHIFT_RIGHT
+Right Alt    -->  MOD_ALT_RIGHT
+Right Gui    -->  MOD_GUI_RIGHT
+
+
+    Command use
+
+First key, then modifier.
+  e.g. manual KEY_R, MOD_GUI_LEFT

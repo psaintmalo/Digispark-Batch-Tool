@@ -1,0 +1,19 @@
+
+    Commands
+
+Delay *time*       - Adds a delay between lines (in ms)
+Enter              - Presses the enter key
+Type *text*        - Makes the Digispark type as a keyboard
+Command *command*  - Lets you use one of he defined commands
+Command_list       - Lists the available commands
+Print File         - Prints the file
+Undo / Undo *n*    - Deletes the last line / n lines
+Manual             - Lets you type the brackets of DigiKeyboard() manually, should be (*key*, *modifier*)
+Manual line        - Lets you type a line manually
+Keys               - Prints a table with all keys and modifiers
+Short              - Short lets you create commands with Win (Gui)/Ctrl and keys. e.g. short gui A | short ctrl F12
+Clear              - Clears all the lines
+Delete             - Deletes the file
+Finish             - Stops the program. ** Always do it if ino_file = 1 **
+Quit               - Closes the program without running the rest of the code
+Help               - Shows this list
