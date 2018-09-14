@@ -4,7 +4,9 @@ This is a simple tool to quickly add commands for a digispark to do batch proces
 
 Current commands are:
  Delay *time*       - Adds a delay between lines (in ms)
+
  Enter              - Presses enter key
+
  Type *text*        - Makes the Digispark type as a keyboard
  Command *command*  - Lets you use one of he defined commands
  Command_list       - Lists the available commands
@@ -18,6 +20,7 @@ Current commands are:
  Finish             - Stops the program. ** Always do it if ino_file = 1 **
  Keys               - Prints a table with all keys and modifiers
  Help               - Shows this list
+
 
 As of v1.0, .bat to .ino file conversion is not supported, but is planned for the future.
 
