@@ -1,3 +1,11 @@
+v1.0
+- File extracted as .ino now supported (can be changed on settings)
+- Added commands like undo, print file, and more
+- Changed the way commands are entered
+- Bugs fix
+- Updated README.md
+
+
 v0.4
 - Added the SHORT command, lets you make use of 2 key shortcuts (Win + R, Control + W, ect)
 - Added DELETE (will delete the file and end the program)
